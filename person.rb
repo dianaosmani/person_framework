@@ -30,4 +30,9 @@ attr_reader :dob, :first_name, :surname, :emails, :phone_numbers
   def remove_number(number)
     @phone_numbers.delete_at(number)
   end
+
+  def describe
+    return "Joe Bloggs was born on #{@dob}. \n Their email address is: #{@emails}. \n Their phone number is: #{@phone_numbers}" 
+  end
+
 end
