@@ -31,4 +31,10 @@ describe "AddressBook class" do
     allan.remove_number(0)
     expect(allan.phone_numbers).to be_empty
   end
+
+  it "should load from a yaml file" do 
+    book = AddressBook.new
+    book.loadyaml("./people.yml")
+    expect(book.address.size).to eq 5 
+end
 end

@@ -3,3 +3,4 @@ require "./FamilyMember"
 require "./AddressBook"
 
 require "date"
+require "yaml"

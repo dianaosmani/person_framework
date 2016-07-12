@@ -1,0 +1,30 @@
+people: 
+  - first_name: Diana 
+    surname: Osmani
+    dob: 24 March 1991
+    emails: osmanidiana@gmail.com
+    phone_numbers: 07826517332
+
+  - first_name: Albert 
+    surname: Osmani
+    dob: 2 September 1988
+    emails: albertosmani@gmail.com
+    phone_numbers: 07826517332
+
+  - first_name: Aysha 
+    surname: Ismaili
+    dob: 23 October 1992
+    emails: aysha_ismaili@gmail.cm
+    phone_numbers: 07826517332
+
+  - first_name: Allan 
+    surname: Mufti
+    dob: 2 February 1989
+    emails: mufti.allan@gmail.com
+    phone_numbers: 07826517332
+
+  - first_name: Sarah 
+    surname: Hirst
+    dob: 14 June 1991
+    emails: sarah2hirst@gmail.com
+    phone_numbers: 07826517332

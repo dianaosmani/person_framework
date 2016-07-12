@@ -11,4 +11,12 @@ class AddressBook
       raise ArgumentError, "Argument must be of type Person or FamilyMember"
     end
   end
+
+  def loadyaml(file)
+    a = YAML.load(File.open(file))
+    a["people"].each do |p| 
+      person = Person.new(p['first_name'], p['surname'], p['dob'])
+      @address << person 
+    end
+  end
 end

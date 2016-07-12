@@ -28,6 +28,14 @@ it "should add and store numbers in an array" do
   expect(joe.phone_numbers).to be_an(Array)
 end
 
+it "should validate email address" do 
+  joe = Person.new("joe", "bloggs")
+  joe.add_email("joe@bloggs.com")
+  joe.valid("joe@bloggs.com")
+  expect(joe.valid)
+
+
+end
 it "should remove emails from an array" do 
   joe = Person.new("joe", "bloggs")
   joe.add_email("joe@bloggs.com")
